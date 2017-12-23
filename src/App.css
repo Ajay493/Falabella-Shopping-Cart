@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.card{
+      margin-right: 3%;
+}
+
+.addCartBtn{
+  position: relative;
+  left: 25%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: #4C0099;
+  background-color: #4C0099;
+}
+
+.remCartBtn {
+  position: relative;
+  left: 15%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: #4C0099;
+  background-color: #4C0099;
+}
+
+.totalValBtn{
+  left:0;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: #5cb85c;
+}
+
+.img{
+  border: 3px solid black;
+}
+
+.card{
+  border: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #4cae4c;
+    border-color: #4cae4c; /*set the color you want here*/
+}
